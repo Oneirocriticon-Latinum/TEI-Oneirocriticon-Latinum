@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="tei_ed_critique">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De sompniis et oraculis - De somniorum interpretatione</title>
+				<author role="traducteur" xml:id="LT">Leo Tuscus</author>
+				<editor role="editeur_scientifique" xml:id="POB">Beaulnes, Pierre-Olivier</editor>
+			</titleStmt>
+			<editionStmt>
+				<p>Traduction latine de l'Oneirocriticon du ps-Achmet effectuée par Leo Tuscus en
+					1176</p>
+			</editionStmt>
+			<publicationStmt>
+				<p>Edition critique effectuée dans le cadre d'une thèse en latin médiéval à
+					l'Université de Genève sous la direction du Prof. Cédric Giraud</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="D"><msDesc>
+							<msIdentifier>
+								<settlement>Oxford</settlement>
+								<repository>Bodleian Library</repository>
+								<idno>Digby 103</idno>
+							</msIdentifier>
+							<msContents>
+								<msItem>
+									<locus>59r-127v</locus>
+									<title>Oneirocriticon</title>
+									<author>Leo Tuscus</author>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc>
+									<p><date>Début XIIIe</date></p>
+								</objectDesc>
+							</physDesc>
+						</msDesc></witness>
+					<witness xml:id="W"><msDesc>
+							<msIdentifier>
+								<settlement>Wolfenbüttel</settlement>
+								<repository>Herzog August Bibliothek</repository>
+								<idno>Cod. Guelf. 87.7 Aug. 2o</idno>
+							</msIdentifier>
+							<msContents>
+								<msItem>
+									<locus>1r-20r</locus>
+									<title>Oneirocriticon</title>
+									<author>Leo Tuscus</author>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc>
+									<p><date>XIIIe</date></p>
+								</objectDesc>
+							</physDesc>
+						</msDesc></witness>
+					<witness xml:id="O"><msDesc>
+							<msIdentifier>
+								<settlement>Bologne</settlement>
+								<repository>Biblioteca del Collegio di Spania</repository>
+								<idno>Ms. 154</idno>
+							</msIdentifier>
+							<msContents>
+								<msItem>
+									<locus>7r-20v</locus>
+									<title>Oneirocriticon</title>
+									<author>Leo Tuscus</author>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc>
+									<p><date>XIVe</date></p>
+								</objectDesc>
+							</physDesc>
+						</msDesc></witness>
+					<witness xml:id="L"><msDesc>
+							<msIdentifier>
+								<settlement>Londre</settlement>
+								<repository>British Library</repository>
+								<idno>Harley Ms. 4025 </idno>
+							</msIdentifier>
+							<msContents>
+								<msItem>
+									<locus>8r-78r</locus>
+									<title>Oneirocriticon</title>
+									<author>Leo Tuscus</author>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc>
+									<p><date>XIVe</date></p>
+								</objectDesc>
+							</physDesc>
+						</msDesc></witness>
+					<witness xml:id="H"><msDesc>
+							<msIdentifier>
+								<settlement>Prague</settlement>
+								<repository>Bibliothèque du Chapitre de Prague</repository>
+								<idno>MS 1306 L.LXI </idno>
+							</msIdentifier>
+							<msContents>
+								<msItem>
+									<locus>1r-74r</locus>
+									<title>Oneirocriticon</title>
+									<author>Leo Tuscus</author>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc>
+									<p><date>XIVe</date></p>
+								</objectDesc>
+							</physDesc>
+						</msDesc></witness>
+					<witness xml:id="C"><msDesc>
+							<msIdentifier>
+								<settlement>Carpentras</settlement>
+								<repository>Bibliothèque Inguimbertine</repository>
+								<idno>Ms. 337</idno>
+							</msIdentifier>
+							<msContents>
+								<msItem>
+									<locus>1r-42r</locus>
+									<title>Oneirocriticon</title>
+									<author>Leo Tuscus</author>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc>
+									<p><date>XVe</date></p>
+								</objectDesc>
+								<handDesc>
+									<handNote xml:id="m1"/>
+									<handNote xml:id="m2"/>
+								</handDesc>
+							</physDesc>
+						</msDesc></witness>
+					<witness xml:id="F"><msDesc>
+							<msIdentifier>
+								<settlement>Florence</settlement>
+								<repository>Bibliotheca Riccardiana</repository>
+								<idno>Ricc. 859 </idno>
+							</msIdentifier>
+							<msContents>
+								<msItem>
+									<locus>2r-51v</locus>
+									<title>Oneirocriticon</title>
+									<author>Leo Tuscus</author>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc>
+									<p><date>XVe</date></p>
+								</objectDesc>
+								<handDesc>
+									<handNote xml:id="m3"/>
+									<handNote xml:id="m4"/>
+								</handDesc>
+							</physDesc>
+						</msDesc></witness>
+					<witness xml:id="P1"><msDesc>
+							<msIdentifier>
+								<settlement>Paris</settlement>
+								<repository>BNF</repository>
+								<idno> lat. 7337</idno>
+							</msIdentifier>
+							<msContents>
+								<msItem>
+									<locus>141r-160v</locus>
+									<title>Oneirocriticon</title>
+									<author>Leo Tuscus</author>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc>
+									<p><date>XVe</date></p>
+								</objectDesc>
+							</physDesc>
+						</msDesc></witness>
+					<witness xml:id="X"><msDesc>
+							<msIdentifier>
+								<settlement>Oxford</settlement>
+								<repository>Bodleian Library</repository>
+								<idno>Ashmole 179</idno>
+							</msIdentifier>
+							<msContents>
+								<msItem>
+									<locus>Partes 5-6</locus>
+									<title>Oneirocriticon</title>
+									<author>Leo Tuscus</author>
+								</msItem>
+							</msContents>
+							<physDesc>
+								<objectDesc>
+									<p><date>XVIe</date> copie du Ms Digby 103 (D) ?</p>
+								</objectDesc>
+								<handDesc>
+									<handNote xml:id="m5"/>
+									<handNote xml:id="m6"/>
+								</handDesc>
+							</physDesc>
+						</msDesc></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<tagsDecl>
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="add"><elementSpec ident="add">
+							<attList>
+								<attDef ident="place">
+									<valList type="closed">
+										<valItem ident="margin" n="selection">
+											<gloss>marge</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="margin-left" n="selection">
+											<gloss>marge gauche</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="margin-right" n="selection">
+											<gloss>marge droite</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="margin-top" n="selection">
+											<gloss>marge supérieure</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="margin-bottom" n="selection">
+											<gloss>marge inférieure</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="inline" n="selection">
+											<gloss>dans le texte</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="above" n="selection">
+											<gloss>au-dessus</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="below" n="selection">
+											<gloss>en-dessous</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="interligne" n="selection">
+											<gloss>interlinéaire</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="surcharge" n="selection">
+											<gloss>surcharge</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="top-right" n="selection">
+											<gloss>en haut à droite</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="top-left" n="selection">
+											<gloss>en haut à gauche</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="bottom-right" n="selection">
+											<gloss>en bas à droite</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="bottom-left" n="selection">
+											<gloss>en bas à gauche</gloss>
+											<desc/>
+										</valItem>
+									</valList>
+								</attDef>
+							</attList>
+						</elementSpec></tagUsage>
+					<tagUsage gi="del"><elementSpec ident="del">
+							<attList>
+								<attDef ident="rend">
+									<valList type="closed">
+										<valItem ident="surcharge" n="selection">
+											<gloss>surcharge</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="biffe" n="selection">
+											<gloss>biffe</gloss>
+											<desc>Texte barré</desc>
+										</valItem>
+										<valItem ident="exponctuation" n="selection">
+											<gloss>exponctuation</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="grattage" n="selection">
+											<gloss>grattage</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="soulignement" n="selection">
+											<gloss>soulignement</gloss>
+											<desc/>
+										</valItem>
+									</valList>
+								</attDef>
+							</attList>
+						</elementSpec></tagUsage>
+					<tagUsage gi="space"><elementSpec ident="space">
+							<attList>
+								<attDef ident="unit">
+									<valList type="closed">
+										<valItem ident="cm" n="selection">
+											<gloss>cm</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="mm" n="selection">
+											<gloss>mm</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="line" n="selection">
+											<gloss>ligne</gloss>
+											<desc>lignes de texte</desc>
+										</valItem>
+										<valItem ident="char" n="selection">
+											<gloss>caractères</gloss>
+											<desc>caractères</desc>
+										</valItem>
+										<valItem ident="word" n="selection">
+											<gloss>mot</gloss>
+											<desc>mots</desc>
+										</valItem>
+									</valList>
+								</attDef>
+							</attList>
+						</elementSpec></tagUsage>
+					<tagUsage gi="note"><elementSpec ident="note">
+							<attList>
+								<attDef ident="place">
+									<valList type="closed">
+										<valItem ident="margin" n="selection">
+											<gloss>marge</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="margin-left" n="selection">
+											<gloss>marge gauche</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="margin-right" n="selection">
+											<gloss>marge droite</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="margin-top" n="selection">
+											<gloss>marge supérieure</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="margin-bottom" n="selection">
+											<gloss>marge inférieure</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="inline" n="selection">
+											<gloss>dans le texte</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="above" n="selection">
+											<gloss>au-dessus</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="below" n="selection">
+											<gloss>en-dessous</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="interligne" n="selection">
+											<gloss>interlinéaire</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="surcharge" n="selection">
+											<gloss>surcharge</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="top-right" n="selection">
+											<gloss>en haut à droite</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="top-left" n="selection">
+											<gloss>en haut à gauche</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="bottom-right" n="selection">
+											<gloss>en bas à droite</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="bottom-left" n="selection">
+											<gloss>en bas à gauche</gloss>
+											<desc/>
+										</valItem>
+									</valList>
+								</attDef>
+								<attDef ident="type">
+									<valList type="closed">
+										<valItem ident="editeur" n="selection">
+											<gloss>éditeur</gloss>
+											<desc>Note de l'éditeur scientifique</desc>
+										</valItem>
+										<valItem ident="source" n="selection">
+											<gloss>source</gloss>
+											<desc>Note présente dans la source</desc>
+										</valItem>
+									</valList>
+								</attDef>
+								<attDef ident="subtype">
+									<valList type="closed">
+										<valItem ident="unite_intellectuelle">
+											<gloss>unité intellectuelle</gloss>
+											<desc>Note sur une unité intellectuelle décrite dans le
+												msDesc</desc>
+										</valItem>
+									</valList>
+								</attDef>
+							</attList>
+						</elementSpec></tagUsage>
+					<tagUsage gi="rdg"><elementSpec ident="rdg">
+							<attList>
+								<attDef ident="cause">
+									<valList type="closed">
+										<valItem ident="omission" n="selection">
+											<gloss>omission</gloss>
+											<desc/>
+										</valItem>
+										<valItem ident="addition" n="selection">
+											<gloss>addition</gloss>
+											<desc/>
+										</valItem>
+									</valList>
+								</attDef>
+							</attList>
+						</elementSpec></tagUsage>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="la">latin</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text rend="100" xml:lang="la">
+		<body corresp="#D #W #O #L #H #C #F #P1 #X">
+			<div type="section1">
+				<head>
+					<app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">
+							<app>
+								<lem wit="#D #W #L #P1"/>
+								<rdg wit="#O #C" cause="addition" n="signifiante">Ad honorem
+									Dei</rdg>
+								<rdg wit="#F" n="signifiante" cause="addition">In nomine domini
+									nostri YHU XPI amen</rdg>
+								<rdg wit="#X" cause="addition" n="signifiante">De Indorum, Persarum
+									Egiptorumque disciplina</rdg>
+							</app> Ad <app>
+								<lem wit="#D #W #O #L #C #X">Hugonem</lem>
+								<rdg wit="#F #P1" n="signifiante">Ugonem</rdg>
+							</app>
+							<app>
+								<lem wit="#W #F #P1">Eterianum</lem>
+								<rdg wit="#D #X" n="signifiante">Eterialium</rdg>
+								<rdg wit="#O #C" cause="omission" n="signifiante"/>
+								<rdg wit="#L" n="signifiante">imperalium</rdg>
+							</app> doctorem suum <app>
+								<lem wit="#D #W #L #F #P1 #X">et utraque origine fratrem</lem>
+								<rdg wit="#O #C" cause="omission" n="signifiante"/>
+							</app> Leo <app>
+								<lem wit="#D #W #O #L #C #F #X">Tuscus</lem>
+								<rdg wit="#P1">Tuschus</rdg>
+							</app>
+							<app>
+								<lem wit="#D #W #L #F #P1 #X">imperatoriarum epistolarum interpres
+									de <app>
+										<lem wit="#D #W #L #F #P1">sompniis</lem>
+										<rdg wit="#X">somniis</rdg>
+									</app> et oraculis</lem>
+								<rdg wit="#O #C" n="signifiante">interpres imperatoriarum
+									epistolarum prologus incipit de interpretatione somniorum</rdg>
+							</app>
+						</lem>
+						<rdg wit="#H" n="signifiante">Incipit liber sompniorum latine doctus loqui a
+							Leone imperialium epistolarum interprete temporibus Magni Imperatoris
+							Manuel</rdg>
+					</app>
+				</head>
+				<p><app>
+						<lem wit="#D #W #L #H #F #P1 #X">Quamquam</lem>
+						<rdg wit="#O #C" n="signifiante">Quam</rdg>
+					</app>, optime <app>
+						<lem wit="#D #W #O #L #H #C #F #P1 #X">preceptor</lem>
+						<rdg wit="#C" n="signifiante"><add hand="#m2" place="interligne"
+								>preceptor</add></rdg>
+					</app>, invictum imperatorem Manuel per fines sequar <app>
+						<lem wit="#D #W #F #X">Bitinie</lem>
+						<rdg wit="#O">Bithimie</rdg>
+						<rdg wit="#L #H #P1">Bithinie</rdg>
+						<rdg wit="#C">Bithiniae</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #F #X">Licaonieque</lem>
+						<rdg wit="#C">Licaoniaeque</rdg>
+						<rdg wit="#P1">Liconieque</rdg>
+					</app> fugantem <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">Persas</lem>
+						<rdg wit="#F" n="signifiante">Speras</rdg>
+					</app> flexipedum hederarum <app>
+						<lem wit="#D #W #O #H #C #F #P1">complectentes</lem>
+						<rdg wit="#L" n="signifiante">complectantes</rdg>
+						<rdg wit="#X" n="signifiante">complectens</rdg>
+					</app>, vestigia tamen memorandi non <app>
+						<lem wit="#D #W #O #L #H #C #F #P1 #X">sum</lem>
+						<rdg wit="#C" n="signifiante"><mod hand="#m2"><del rend="biffe"
+									>solum</del><add place="surcharge">sum</add></mod></rdg>
+					</app> oblitus <app>
+						<lem wit="#D #W #L #H #F #P1 #X">sompnii</lem>
+						<rdg wit="#O #C">somnii</rdg>
+					</app> a te <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">visi</lem>
+						<rdg wit="#H" n="signifiante">nisi</rdg>
+					</app> qui dictum inexpugnabilem virum <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X"><app>
+								<lem wit="#D #W #O #L #H #P1 #X">eneo</lem>
+								<rdg wit="#F">heneo</rdg>
+								<rdg wit="#P1"><del rend="biffe">in eo</del></rdg>
+							</app> in equo</lem>
+						<rdg wit="#C" n="signifiante">equo eneos</rdg>
+					</app>
+					<app>
+						<lem wit="#W #O #L #H #C #F #P1 #X">supra</lem>
+						<rdg wit="#D" n="signifiante">supera</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">columpnam</lem>
+						<rdg wit="#F" n="signifiante">collumpna</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #F #X">quam</lem>
+						<rdg wit="#P1">qua</rdg>
+					</app> Traces dicunt <app>
+						<lem wit="#D #L">augustiana</lem>
+						<rdg wit="#W" n="signifiante">augustiona</rdg>
+						<rdg wit="#O #C" n="signifiante">augustonia</rdg>
+						<rdg wit="#H #P1" n="signifiante">angustiona</rdg>
+						<rdg wit="#F" n="signifiante">augustionam</rdg>
+						<rdg wit="#X" n="signifiante">augustiniana</rdg>
+					</app>
+					<app>
+						<lem wit="#W #O #H #C #F #P1">Bisantii</lem>
+						<rdg wit="#D #X" n="signifiante">Bizantii</rdg>
+						<rdg wit="#L" n="signifiante">Bizanzii</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">sito</lem>
+						<rdg wit="#F" n="signifiante">situm</rdg>
+					</app> nobiliter <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">sedere</lem>
+						<rdg wit="#C" n="signifiante">sedem</rdg>
+					</app>
+					<app>
+						<lem wit="#D #O #C #X">conspicabaris</lem>
+						<rdg wit="#W" n="signifiante">conspicabisaris</rdg>
+						<rdg wit="#L" n="signifiante">conconspicabaris</rdg>
+						<rdg wit="#H #P1" n="signifiante">conspica</rdg>
+						<rdg wit="#F" n="signifiante"><mod hand="#m1"><del rend="exponctuation"
+									>conpiscabaris</del><add place="inline"
+								>conpiscabaris</add></mod></rdg>
+					</app>. <app>
+						<lem wit="#D #W #O #L #C #F #X"><app>
+								<lem wit="#D #W #O #L #F #X">Eodem</lem>
+								<rdg wit="#C" n="signifiante">Eos</rdg>
+							</app> autem in loco doctissimis <app>
+								<lem wit="#D #W #O #L #F #X">quibusdam</lem>
+								<rdg wit="#C" n="signifiante">quibus <del rend="biffe" hand="#m2"
+										>de</del></rdg>
+							</app> astantibus latinis romana</lem>
+						<rdg wit="#H #P1" cause="omission" n="signifiante"/>
+					</app> oratione cum in quodam legeret <app>
+						<lem wit="#D #W #L #H #F #P1 #X">libello</lem>
+						<rdg wit="#O" n="signifiante">libro</rdg>
+						<rdg wit="#C" n="signifiante">librum</rdg>
+					</app><app>
+						<lem wit="#D #W #O #L #H #C #F #X"> interpellanti</lem>
+						<rdg wit="#P1" n="signifiante">interpellati</rdg>
+					</app> tibi soli favorem <app>
+						<lem wit="#D #W #L #H #C #F #P1 #X"/>
+						<rdg wit="#O" cause="addition" n="signifiante">tibi</rdg>
+					</app> prestitisse <app>
+						<lem wit="#D #W #O #L #H #C #F #X">visus</lem>
+						<rdg wit="#P1">vissus</rdg>
+					</app> est. Latuit tunc utrumque <app>
+						<lem wit="#D #W #O #L #H #C #F #X">nostrum</lem>
+						<rdg wit="#P1">vestrum</rdg>
+					</app> ea <app>
+						<lem wit="#D #O #L #H #C #F #P1 #X"/>
+						<rdg wit="#W" cause="addition" n="signifiante">quidem</rdg>
+					</app> quid <app>
+						<lem wit="#D #W #O #L #H #P1 #X">portenderet</lem>
+						<rdg wit="#C #F" n="signifiante">pretenderet</rdg>
+					</app> visio, <app>
+						<lem wit="#D #W #O #L #H #P1 #X">at</lem>
+						<rdg wit="#C #F" n="signifiante">ad</rdg>
+					</app> vero <app>
+						<lem wit="#D #W #L #H #F #X">eiusmodi</lem>
+						<rdg wit="#O #C" n="signifiante">huius</rdg>
+						<rdg wit="#F" n="signifiante"><add hand="#m2" place="margin-left"
+								>huius</add></rdg>
+						<rdg wit="#P1">huiusmodi</rdg>
+					</app> oraculum editus <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">per te</lem>
+						<rdg wit="#C" n="signifiante">prout</rdg>
+					</app> de <app>
+						<lem wit="#D #W #L #H #F #P1 #X">filii</lem>
+						<rdg wit="#O #C" n="signifiante">filiis</rdg>
+					</app> hominis <app>
+						<lem wit="#D #W #O #L #H #C #F #P1 #X">minoritate</lem>
+						<rdg wit="#C" n="signifiante"><mod><del>minoritatem</del><add/></mod></rdg>
+					</app> ad <app>
+						<lem wit="#D #W #O #L #H #C #F #P1 #X">Patrem</lem>
+						<rdg wit="#D"><mod><del rend="exponctuation">Petrem</del><add place="above"
+									>Patrem</add></mod></rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">Deum</lem>
+						<rdg wit="#F" n="signifiante"><mod hand="#m2"><del>Deu</del><add
+									place="margin-left">dictum</add></mod></rdg>
+					</app> libellus <app>
+						<lem wit="#D #W #O #L #H #C #F #P1">tempore post</lem>
+						<rdg wit="#X">postea</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #F #X">revelavit</lem>
+						<rdg wit="#P1">revellavit</rdg>
+					</app> sub tegumentis. <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X"/>
+						<rdg wit="#F" cause="addition" n="signifiante">expositio visionis</rdg>
+					</app> Profecto <app>
+						<lem wit="#D #W #O #L #C #P1 #X">eneus</lem>
+						<rdg wit="#H" n="signifiante">eventus</rdg>
+						<rdg wit="#F" n="signifiante">hennus</rdg>
+					</app> ille <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">sonipes</lem>
+						<rdg wit="#C">somnipes</rdg>
+					</app> anima carens <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">altissime</lem>
+						<rdg wit="#H" n="signifiante">altissimeque</rdg>
+					</app> sonantissimeque questionis erat <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">que</lem>
+						<rdg wit="#C">quae</rdg>
+					</app> inter Grecos <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X"/>
+						<rdg wit="#C" cause="addition" n="signifiante">que</rdg>
+					</app> versabatur ventilatio Verbum, <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">scilicet</lem>
+						<rdg wit="#H" n="signifiante">secundum</rdg>
+					</app> Dei,<app>
+						<lem wit="#D #W #O #L #H #P1 #X">secundum</lem>
+						<rdg wit="#C" n="signifiante"><add hand="#m2" place="above"
+							>secundum</add></rdg>
+						<rdg wit="#F" cause="omission" n="signifiante"/>
+					</app> quod incarnatum, Patri <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">equale protestans</lem>
+						<rdg wit="#F" n="signifiante">equalem prestans</rdg>
+					</app> rationis <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">veritatisque</lem>
+						<rdg wit="#H" n="signifiante">veritatis quod</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #F #X">radicitus</lem>
+						<rdg wit="#P1">radiciter</rdg>
+					</app> expers, ut <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">quadrupes</lem>
+						<rdg wit="#H" n="signifiante">quadruplex</rdg>
+					</app> nominatus. Solvit <app>
+						<lem wit="#D #W #O #L #C #F #X">autem illam controversiam clamitante dicto
+							libello augustalis <app>
+								<lem wit="#D #W #O #L #F #X">clementie</lem>
+								<rdg wit="#C">clementiae</rdg>
+							</app></lem>
+						<rdg wit="#H #P1" cause="omission" n="signifiante"/>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">decretum</lem>
+						<rdg wit="#C" n="signifiante">decreto</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #F #P1 #X"/>
+						<rdg wit="#P1" cause="addition"><del rend="biffe">que</del></rdg>
+					</app> pauco <app>
+						<lem wit="#D #W #O #L #H #C #F #X">scandali</lem>
+						<rdg wit="#P1">scandalo</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">fomento</lem>
+						<rdg wit="#C" n="signifiante">fomentum</rdg>
+					</app> contra <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">voluntatem</lem>
+						<rdg wit="#F">volumptatem</rdg>
+					</app>
+					<app>
+						<lem wit="#W #O #H #C #F #P1" n="signifiante">ipsius</lem>
+						<rdg wit="#D #L #X">illius</rdg>
+					</app> relicto. Ex eo <app>
+						<lem wit="#D #W #O #H #C #F #P1 #X">igitur</lem>
+						<rdg wit="#L" n="signifiante">ergo</rdg>
+					</app> tempore pectus <pb source=" #L" n="8v"/>
+					<app>
+						<lem wit="#D #W #O #L #H #X">sollicitudine</lem>
+						<rdg wit="#C #F #P1">solicitudine</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">percussi</lem>
+						<rdg wit="#C">percusi</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #P1 #X"/>
+						<rdg wit="#F" cause="addition" n="signifiante">et</rdg>
+					</app> sub corde <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">ignitos</lem>
+						<rdg wit="#C" n="signifiante">ignotos</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #F #P1 #X">versavi</lem>
+						<rdg wit="#H" n="signifiante">versani</rdg>
+						<rdg wit="#C" n="signifiante">versari</rdg>
+					</app> carbones, <app>
+						<lem wit="#D #W #O #L #H #C #F #P1 #X"/>
+						<rdg wit="#P1" cause="addition"><del rend="biffe">ignitos</del></rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">cogitando</lem>
+						<rdg wit="#F" cause="omission" n="signifiante"/>
+					</app>
+					<app>
+						<lem wit="#O #C">utile esset annon</lem>
+						<rdg wit="#D #L #F #X" n="signifiante">uti <app>
+								<lem wit="#D #L #F #X" n="signifiante">lene</lem>
+								<rdg wit="#F" n="signifiante"><add hand="#m2" place="margin-left"
+										>leve</add></rdg>
+							</app> esset annon</rdg>
+						<rdg wit="#W" n="signifiante">utile esse</rdg>
+						<rdg wit="#H" n="signifiante">utile an esset annon</rdg>
+						<rdg wit="#P1">utile ne erit anion</rdg>
+					</app>, si <app>
+						<lem wit="#D #W #O #L #C #F #X">onirocriti</lem>
+						<rdg wit="#H" n="signifiante">onirotati</rdg>
+						<rdg wit="#P1">narratiniti</rdg>
+					</app> Grecorum <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">philosophis</lem>
+						<rdg wit="#H" n="signifiante">prophetis</rdg>
+					</app> ariolanti loqui latine <app>
+						<lem wit="#D #O #H #F #P1 #X">persuaderem</lem>
+						<rdg wit="#W #L" n="signifiante">persuadere</rdg>
+						<rdg wit="#C" n="signifiante">persuadentem</rdg>
+					</app><app>
+						<lem wit="#D #W #O #L #C #X">enucleatim</lem>
+						<rdg wit="#H" n="signifiante">enucleit in</rdg>
+						<rdg wit="#F" n="signifiante">enucleanti</rdg>
+						<rdg wit="#P1" n="signifiante">enuchleitim</rdg>
+					</app> atque inoffensam perspicuitatem <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">figmenti</lem>
+						<rdg wit="#H" n="signifiante">figmenta</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #H #F #X">sompnialis</lem>
+						<rdg wit="#O #L #C #P1">somnialis</rdg>
+					</app>, tuo favore, nostrorum <app>
+						<lem wit="#D #W #O #L #H #C #F #X">Tuscorum</lem>
+						<rdg wit="#P1">Tuschorum</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #F #X">desiderio</lem>
+						<rdg wit="#P1">desaderio</rdg>
+					</app> breviter reserarem, quos quidem <app>
+						<lem wit="#D #W #O #H #C #F #P1 #X">fluctu <app>
+								<lem wit="#D #W #O #H #C #P1 #X">percupio</lem>
+								<rdg wit="#F" n="signifiante">cupio</rdg>
+							</app></lem>
+						<rdg wit="#L" n="signifiante">percupio fluctu</rdg>
+					</app> aspergi <app>
+						<lem wit="#W #O #H #C #F #P1" n="signifiante">undosiore</lem>
+						<rdg wit="#D #L #X">undiosiore</rdg>
+					</app>, ut irrigentur <app>
+						<lem wit="#D #W #O #L #C #P1 #X">affatim</lem>
+						<rdg wit="#H" n="signifiante">affatum</rdg>
+						<rdg wit="#F" n="signifiante">affanti</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #F #P1 #X">efficianturque</lem>
+						<rdg wit="#F"><mod hand="#m1"><del>afficianturque</del><add place="above"
+									>efficianturque</add></mod></rdg>
+					</app> fecundiores. Nam <app>
+						<lem wit="#D #W #O #L #H #P1 #X">Seres</lem>
+						<rdg wit="#C" n="signifiante">Seros</rdg>
+						<rdg wit="#F" n="signifiante"><mod hand="#m2"><del>Seres</del><add
+									place="margin-right">Si res</add></mod></rdg>
+					</app>,<app>
+						<lem wit="#D #W #O #L #H #C #F #X">ut</lem>
+						<rdg wit="#P1">non</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">fertur</lem>
+						<rdg wit="#H" n="signifiante">ferer</rdg>
+					</app>, arbores suas undis <app>
+						<lem wit="#D #W #L #C #F #X">aspergunt</lem>
+						<rdg wit="#O">adspergunt</rdg>
+						<rdg wit="#H #P1" n="signifiante">asperguntur</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #F #P1 #X">quando</lem>
+						<rdg wit="#H" n="signifiante">quandoque</rdg>
+						<rdg wit="#C" n="signifiante"><mod hand="#m2"><del rend="surcharge"
+									>cum</del><add place="surcharge">quando</add></mod></rdg>
+					</app> uberiorem <app>
+						<lem wit="#D #W #O #H #C #F #P1 #X">lanuginem</lem>
+						<rdg wit="#L" n="signifiante">laguuginem</rdg>
+					</app> que sericum <app>
+						<lem wit="#W #O #H #C #F #P1">creat</lem>
+						<rdg wit="#D #L #X" cause="omission" n="signifiante"/>
+					</app> admittere <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">nituntur</lem>
+						<rdg wit="#F">nittuntur</rdg>
+					</app>. Ceterum <app>
+						<lem wit="#D #W #L #X">haut</lem>
+						<rdg wit="#O #H #C #F #P1" n="signifiante">aut</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #F #X">facile</lem>
+						<rdg wit="#P1">facille</rdg>
+					</app> est in <app>
+						<lem wit="#D #O #L #H #C #P1 #X">huiusmodi</lem>
+						<rdg wit="#W #F" n="signifiante">huius</rdg>
+					</app> versari <app>
+						<lem wit="#D #W #O #L #H #X">pelago</lem>
+						<rdg wit="#C #F #P1">pellago</rdg>
+					</app> cuius <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">latitudo</lem>
+						<rdg wit="#F">lattitudo</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #C #F #X"/>
+						<rdg wit="#H #P1" cause="addition" n="signifiante">usque</rdg>
+					</app> ad aures <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">usque</lem>
+						<rdg wit="#C" n="signifiante">ubique</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #C #F #X">dehiscit</lem>
+						<rdg wit="#H #P1" n="signifiante">dei scit</rdg>
+					</app> non <pb source=" #X" n="V.2v"/> sponte remigem <app>
+						<lem wit="#D #W #L #X">asciscens</lem>
+						<rdg wit="#O">asscicens</rdg>
+						<rdg wit="#H">ascissens</rdg>
+						<rdg wit="#C">asciones</rdg>
+						<rdg wit="#F">asiscens</rdg>
+						<rdg wit="#P1">asscissens</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">invalidum</lem>
+						<rdg wit="#F">invallidum</rdg>
+					</app>. Non solum enim <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">subtilibus</lem>
+						<rdg wit="#F">subtillibus</rdg>
+					</app> expositum <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">investigationibus</lem>
+						<rdg wit="#H" n="signifiante">vestigationibus</rdg>
+					</app> et illos <app>
+						<lem wit="#W #O #H #C #F">repellit</lem>
+						<rdg wit="#D #L #P1 #X" n="signifiante">repellunt</rdg>
+					</app> qui <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">debilitate</lem>
+						<rdg wit="#F">debillitate</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #F #P1">pedum</lem>
+						<rdg wit="#X">pedem</rdg>
+					</app> serpunt, ut antipodes, et eos qui <app>
+						<lem wit="#D #W #O #L #H #C #F #P1">non</lem>
+						<rdg wit="#X" cause="omission" n="signifiante"/>
+					</app> movent <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">linguas</lem>
+						<rdg wit="#C" n="signifiante">linguam</rdg>
+					</app>, ut pleraque <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">aquatilium, sed</lem>
+						<rdg wit="#C" n="signifiante">aquatilia videlicet</rdg>
+					</app> neque<app>
+						<lem wit="#D #W #O #L #C #F #P1 #X"><app>
+								<lem wit="#D #W #O #L #C #P1 #X">monoxilo</lem>
+								<rdg wit="#F" n="signifiante">monoxilio</rdg>
+							</app> se</lem>
+						<rdg wit="#H" n="signifiante">monoxiloxe</rdg>
+					</app> navigari <app>
+						<lem wit="#W #O #H #F #P1" n="signifiante">lintre</lem>
+						<rdg wit="#D #L #X">limine</rdg>
+						<rdg wit="#C" n="signifiante">littore</rdg>
+					</app> patitur. Quamobrem <app>
+						<lem wit="#D #W #O #L #H #X">loquelam</lem>
+						<rdg wit="#C #F #P1">loquellam</rdg>
+					</app><app>
+						<lem wit="#D #W #O #L #H #P1 #X"> imperatoriorum</lem>
+						<rdg wit="#C" n="signifiante">imperatoriarum</rdg>
+						<rdg wit="#F" n="signifiante">inperiatorum</rdg>
+					</app> interpretationibus <app>
+						<lem wit="#D #W #O #L #H #F #X">apicum</lem>
+						<rdg wit="#P1">apicam</rdg>
+						<rdg wit="#C"><mod><del rend="biffe"/><add place="above"
+							>aptum</add></mod></rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #C #X">obsequentem</lem>
+						<rdg wit="#H" n="signifiante">obsecretem</rdg>
+						<rdg wit="#F" n="signifiante">obsequente</rdg>
+						<rdg wit="#P1">ob senectute</rdg>
+					</app> per <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">excubias</lem>
+						<rdg wit="#F">excubeas</rdg>
+					</app> interdum huic <app>
+						<lem wit="#D #W #O #L #H #C #F #X">translationi</lem>
+						<rdg wit="#P1" n="signifiante">tribulationi</rdg>
+					</app>
+					<pb source=" #P" n="1v"/> non <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">irrita</lem>
+						<rdg wit="#C" n="signifiante">ut ita</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #L #H #F #P1 #X">spe</lem>
+						<rdg wit="#O #C" n="signifiante">sepe</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #X">addixi</lem>
+						<rdg wit="#F">adixsi</rdg>
+						<rdg wit="#P1">adixi</rdg>
+					</app>, totum opus <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">sapientie</lem>
+						<rdg wit="#C">sapientiae</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #L #H #F #P1 #X">tue dicaturus</lem>
+						<rdg wit="#O #C" n="signifiante">tuo dedicaturus</rdg>
+					</app> iudicio mei <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">quidem</lem>
+						<rdg wit="#H" cause="omission" n="signifiante"/>
+					</app>
+					<pb source=" #D" n="59v"/><app>
+						<lem wit="#D #L #F #P1 #X">auctoris</lem>
+						<rdg wit="#W #H" n="signifiante">autoris</rdg>
+						<rdg wit="#O #C" n="signifiante">actoris</rdg>
+					</app> tui vero probatoris <app>
+						<lem wit="#D #W #L #H #F #P1 #X">equilibre</lem>
+						<rdg wit="#O" n="signifiante">equilibra</rdg>
+						<rdg wit="#C" n="signifiante">equa libra</rdg>
+					</app> pensans <app>
+						<lem wit="#W #O #H #C #F #P1">meritum</lem>
+						<rdg wit="#D #L #X" n="signifiante">incertum</rdg>
+					</app>. Nam tuum examen <app>
+						<lem wit="#D #O #L #C #F #P1 #X">discernere</lem>
+						<rdg wit="#W" n="signifiante">cognoscere</rdg>
+						<rdg wit="#H" cause="omission" n="signifiante"/>
+					</app> non <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">sum</lem>
+						<rdg wit="#F" n="signifiante">solum</rdg>
+					</app> ambiguus quicquid <app>
+						<lem wit="#D #W #L #F #P1 #X">arida</lem>
+						<rdg wit="#O #H #C">arrida</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #X">exsanguisque</lem>
+						<rdg wit="#H #C #P1">exanguisque</rdg>
+						<rdg wit="#F" n="signifiante">ex ingeris que</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #X">poscit</lem>
+						<rdg wit="#F" n="signifiante">posit</rdg>
+						<rdg wit="#P1" n="signifiante">possit</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #X">ratiocinatio</lem>
+						<rdg wit="#F #P1" n="signifiante">rationatio </rdg>
+					</app>. <app>
+						<lem wit="#D #O #L #H #C #F #P1 #X">Sed <app>
+								<lem wit="#D #O #L #H #F #P1 #X">enim</lem>
+								<rdg wit="#C" n="signifiante">cum</rdg>
+							</app>
+							<app>
+								<lem wit="#D #O #L #C #F #P1 #X">desiderantissimus</lem>
+								<rdg wit="#H" n="signifiante">desiderantissimum</rdg>
+							</app></lem>
+						<rdg wit="#W" n="signifiante">desiderantissimus enim</rdg>
+					</app> nepos Fabricius <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">grecarum</lem>
+						<rdg wit="#F" n="signifiante">grecorum</rdg>
+					</app> sciolus et ipse litterarum <app>
+						<lem wit="#D #W #L #H #F #P1 #X">sompnialium</lem>
+						<rdg wit="#O #C">somnialium</rdg>
+					</app> figmentorum odoratus <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">rosaria</lem>
+						<rdg wit="#C" n="signifiante">rosalia</rdg>
+					</app> scribendi assiduitate <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">me a</lem>
+						<rdg wit="#H">mea</rdg>
+					</app> confluentibus <app>
+						<lem wit="#D #W #O #L #H #C #X">elevat</lem>
+						<rdg wit="#F #P1">ellevat</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #F #X">prestatque</lem>
+						<rdg wit="#P1">prestat</rdg>
+					</app> non <app>
+						<lem wit="#D #W #L #H #C #F #P1 #X">mediocre</lem>
+						<rdg wit="#O" n="signifiante">medicto</rdg>
+					</app> adiumentum, <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">atque</lem>
+						<rdg wit="#C" n="signifiante">adque</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #C #X"/>
+						<rdg wit="#H #P1" cause="addition" n="signifiante">et</rdg>
+						<rdg wit="#F" cause="addition" n="signifiante">neque</rdg>
+					</app>
+					<app>
+						<lem wit="#W #O #L #H #C #F">idcirco</lem>
+						<rdg wit="#D #X">iccirco</rdg>
+						<rdg wit="#P1">idcircho</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #C #F #X"><app>
+								<lem wit="#D #W #O #L #F #X">neque</lem>
+								<rdg wit="#C" n="signifiante">nec <mod hand="#m2"><del rend="biffe"
+											>non</del><add>enim</add></mod></rdg>
+							</app> nomen sine subiecto <app>
+								<lem wit="#D #W #O #L #F #X">neque</lem>
+								<rdg wit="#C" n="signifiante">nec</rdg>
+							</app> sine viribus erit editio</lem>
+						<rdg wit="#H #P1" cause="omission" n="signifiante"/>
+					</app>, <app>
+						<lem wit="#D #W #L #X">Sidoneis</lem>
+						<rdg wit="#O #H #C #F #P1" n="signifiante">Cidoneis </rdg>
+					</app>
+					<app>
+						<lem wit="#D #L #P1 #X">Tirenisque</lem>
+						<rdg wit="#W" n="signifiante">Tirrenisque</rdg>
+						<rdg wit="#O #C" n="signifiante">Turriusque</rdg>
+						<rdg wit="#H" n="signifiante">Turrenisque</rdg>
+						<rdg wit="#F" n="signifiante">Tirennisque</rdg>
+					</app> sagittis parum <app>
+						<lem wit="#D #W #O #L #H #C #F #X">penetrabilis</lem>
+						<rdg wit="#P1">penetrabis</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #C #F #X">apparitura</lem>
+						<rdg wit="#H #P1" n="signifiante">apparita</rdg>
+					</app>, ut arbitror. Ergo quisquis <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">
+							<app>
+								<lem wit="#D #W #L #P1 #X">nodosorum</lem>
+								<rdg wit="#O #C" n="signifiante">nosodorum</rdg>
+								<rdg wit="#F" n="signifiante">nodosiorum</rdg>
+							</app>
+							<app>
+								<lem wit="#D #W #O #L #F #P1 #X">sompniorum</lem>
+								<rdg wit="#C">somniorum</rdg>
+							</app>
+						</lem>
+						<rdg wit="#H" n="signifiante">sompniorum nodosorum</rdg>
+					</app> fatigatur <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">involucris</lem>
+						<rdg wit="#F" n="signifiante"><mod hand="#m2"><del>involueris</del><add
+									place="bottom-left">involutionibus</add></mod></rdg>
+					</app>, si per <app>
+						<lem wit="#D #W #L #H #C #F #P1 #X">aliquod</lem>
+						<rdg wit="#O" n="signifiante">aliquot</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">hic</lem>
+						<rdg wit="#F" n="signifiante">id</rdg>
+					</app> scriptorum absolvi <app>
+						<lem wit="#D #W #O #L #H #C #X">postulet</lem>
+						<rdg wit="#F #P1" n="signifiante">postulat</rdg>
+					</app>, caveat <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">pretemptare</lem>
+						<rdg wit="#C">pretentare</rdg>
+					</app> plus <app>
+						<lem wit="#D #W #O #L #H #P1 #X">nosse</lem>
+						<rdg wit="#C">nose</rdg>
+						<rdg wit="#F" n="signifiante">nosce</rdg>
+					</app> quam <app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">sat</lem>
+						<rdg wit="#F" n="signifiante">satis</rdg>
+					</app> est, ne titulos <app>
+						<lem wit="#D #O #L #H #C #F #P1 #X">depravet</lem>
+						<rdg wit="#W" n="signifiante">degravet</rdg>
+					</app><app>
+						<lem wit="#D #W #L #H">Apollinee</lem>
+						<rdg wit="#O" n="signifiante">Apolinee</rdg>
+						<rdg wit="#C" n="signifiante">Apolinem</rdg>
+						<rdg wit="#F" n="signifiante">Appolinee</rdg>
+						<rdg wit="#P1" n="signifiante"><del rend="biffe">Apoloniee</del></rdg>
+						<rdg wit="#X" n="signifiante">Appollinee</rdg>
+					</app> urbis <app>
+						<lem wit="#D #W #O #L #H #C #F #X"/>
+						<rdg wit="#P1"><add>Appolinee</add></rdg>
+					</app><app>
+						<lem wit="#H #C #P1">ambagum</lem>
+						<rdg wit="#D #W #L #X" n="signifiante">ambiguum</rdg>
+						<rdg wit="#O" n="signifiante">ambaguum</rdg>
+						<rdg wit="#F">anbagum</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">rimis</lem>
+						<rdg wit="#F" n="signifiante">ruinus</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #L #X">herbidisque</lem>
+						<rdg wit="#O">erbidisque</rdg>
+						<rdg wit="#H" n="signifiante">herbidibusque</rdg>
+						<rdg wit="#C">orbidisque</rdg>
+						<rdg wit="#F" n="signifiante">herbibisque</rdg>
+						<rdg wit="#P1" n="signifiante">herbisque</rdg>
+					</app> sentibus. Ego autem tui <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">solius</lem>
+						<rdg wit="#H" n="signifiante">solus</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #C #X">utrarumque</lem>
+						<rdg wit="#H #P1" n="signifiante">utraque</rdg>
+						<rdg wit="#F" n="signifiante">utrumque</rdg>
+					</app> linguarum peritissimo <app>
+						<lem wit="#D #W #O #H #C #F #P1 #X">examini</lem>
+						<rdg wit="#L">exanini</rdg>
+					</app><app>
+						<lem wit="#D #W #O #L #C #P1 #X"> volumen</lem>
+						<rdg wit="#H #F" n="signifiante">volumine</rdg>
+					</app> hoc <app>
+						<lem wit="#O #L #H #C #F #P1">suppono</lem>
+						<rdg wit="#D #W #X">subpono</rdg>
+					</app>, ut in eo <app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">que</lem>
+						<rdg wit="#C">quae</rdg>
+					</app> arescunt <app>
+						<lem wit="#D #W #O #L #C #F #P1 #X">ac caligant</lem>
+						<rdg wit="#H" n="signifiante">acta ligant</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #F #X">per te</lem>
+						<rdg wit="#P1">parte</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #F #P1 #X">illustrata</lem>
+						<rdg wit="#C" n="signifiante">illustra</rdg>
+					</app> orbi <app>
+						<lem wit="#D #W #O #L #X">demum</lem>
+						<rdg wit="#H #F #P1" n="signifiante">deinde</rdg>
+						<rdg wit="#C">de me</rdg>
+					</app>
+					<app>
+						<lem wit="#D #O #L #H #X">succincta</lem>
+						<rdg wit="#W">succigta</rdg>
+						<rdg wit="#C #F #P1">succinta</rdg>
+					</app>
+					<app>
+						<lem wit="#D #L #X">professione</lem>
+						<rdg wit="#W #O #H #C #P1" n="signifiante">profectione</rdg>
+						<rdg wit="#F" n="signifiante">perfectione</rdg>
+					</app>
+					<app>
+						<lem wit="#D #W #O #L #H #C #P1 #X">vulgentur</lem>
+						<rdg wit="#F" n="signifiante">vulgent</rdg>
+					</app><app>
+						<lem wit="#D #W #O #L #H #C #P1 #X"/>
+						<rdg wit="#F" cause="addition" n="signifiante">Explicit prologus</rdg>
+					</app>.</p>
+			</div>
+		</body>
+	</text>
+</TEI>
